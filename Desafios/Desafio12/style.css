@@ -1,0 +1,72 @@
+@charset "UTF-8"
+
+:root {
+    --bege:#fffde7;
+    --gray: #b9b9b9;
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 6% 0% 1% 0%;
+
+}
+
+header a {
+    color: bisque;
+    text-decoration: none;
+    font-weight: 600;
+}
+.principal {
+    font-size: 8vw;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+p, h3 {
+    padding: 0% 10%;
+}
+
+.house-paralax {
+    background-image: url('imagens/landscape_002.jpg');
+    background-size: cover;
+    background-position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    padding: 5% 0%;
+}
+
+.entry {
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-position: absolute;
+    width: fit-content;
+}
+
+.land-paralax {
+    background-image: url('imagens/landscape_001.jpg');
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    padding: 5% 0%;
+
+}
+
+
+
