@@ -1,19 +1,24 @@
 @charset "UTF-8"
 
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
 :root {
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Gloock';
+    --font3:'Rancho', Verdana, Geneva, Tahoma, sans-serif;
     --bege:#fffde7;
     --gray: #b9b9b9;
 }
 *{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
     padding: 0px;
     margin: 0px;
 
 }
 body{
     min-height: 100vh;
-    background-color: #b9b9b9;
+    background-color: #f0f0f0;
 
 }
 header {
@@ -22,10 +27,11 @@ header {
     color: white;
 }
 .principal {
-    font-size: 8vw;
+    font-size: 6vw;
     color: #ffffff;
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
 }
 header a, footer a {
     color: bisque;
@@ -43,16 +49,29 @@ header h2 {
 
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--font3);
 }
 
+
 section, article {
+
+    font-size: 2vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 1.6em;
-    padding: 10vh;
+    padding: 5vh;
+    font-family: var(--font3);
 }
 
+h3 {
+    font-family: var(--font2);
+    font-size: 3vw;
+}
+
+.presentation {
+    padding-left: 10vw;
+}
 
 .house-paralax {
     background-image: url('imagens/landscape_002.jpg');
@@ -71,20 +90,29 @@ section, article {
     background-repeat: no-repeat;
 }
 .entry {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.747);
     color: bisque;
-    width: 300px;
+    margin: 5vw;
+    padding: 5vw;
 }
 
-.entry .p {
-    
+article {
+    margin: 5vw;
+    padding: 5vw;
 }
+
 
 footer {
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
+
+footer h2 {
+    color: #ffffff;
+}
+
 
 
 
