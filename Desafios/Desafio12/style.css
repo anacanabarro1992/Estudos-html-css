@@ -63,20 +63,23 @@ section, article {
     background-position: relative;
 }
 
-.entry .p {
-    background-color: rgba(0, 0, 0, 0.747);
-    width: 400px;
-}
-
 .land-paralax {
     background-image: url('imagens/landscape_001.jpg');
     background-size: cover;
     background-position: right bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-    padding: 5% 0%;
 }
+.entry {
+    background-color: rgba(0, 0, 0, 0.747);
+    color: bisque;
+    width: 300px;
+}
+
+.entry .p {
+    
+}
+
 footer {
     background-color: black;
     text-align: center;
