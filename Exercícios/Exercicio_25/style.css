@@ -7,6 +7,10 @@
     padding: 0;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+body {
+    background-image: url(imagens/pexels-polina-zimmerman-3747505.jpg);
+    background-size: 100vw;
+}
 
 h1 {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -14,4 +18,34 @@ h1 {
 
 h3, p {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+header {
+    margin: 30% 20% 0% 20%;
+}
+.cadastro {
+    margin: 0% 10%;
+    padding: 2% 10%;
+    border: solid 2px #aec8f8ef;
+    border-radius: 15px;
+    background-color: #aec8f850;
+}
+main {
+    display: flex;
+}
+.ranking {
+    display: block;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 2% 10%;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.ranking li, ul {
+    margin: 10%;
+    padding: 2% 0%;
+    color: white;
+    list-style-type: circle;
+    list-style-position: inside;
+    
 }
