@@ -20,10 +20,10 @@ h3, p {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 header {
-    margin: 30% 20% 0% 20%;
+    margin: 20% 20% 0% 20%;
 }
 .cadastro {
-    margin: 0% 10%;
+    margin: 0% 6%;
     padding: 2% 10%;
     border: solid 2px #aec8f8ef;
     border-radius: 15px;
@@ -31,21 +31,24 @@ header {
 }
 main {
     display: flex;
+    margin: 0% 6%;
 }
 .ranking {
     display: block;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    margin: 2% 10%;
-    background-color: rgba(0, 0, 0, 0.404);
+    margin: 5% 1%;
+    padding: 2% 2%;
+    background-color: rgba(0, 0, 0, 0.658);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    width: 80vw;
+
 }
 .ranking li, ul {
-    margin: 10%;
-    padding: 2% 0%;
+
+    padding: 1% 3%;
     color: white;
     list-style-type: circle;
     list-style-position: inside;
-    
 }
